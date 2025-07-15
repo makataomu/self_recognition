@@ -194,7 +194,8 @@ def get_model_choice(
             model="gpt-4-1106-preview",
             return_logprobs=return_logprobs,
         )
-    if model.endswith("gpt35"):
+    # if model.endswith("gpt35"):
+    elif 'gpt' in model:
         return get_gpt_choice(
             summary1,
             summary2,
