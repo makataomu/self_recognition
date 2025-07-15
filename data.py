@@ -2,7 +2,7 @@ import json
 from datasets import load_dataset
 import os
 
-SOURCES = ["human", "claude", "gpt35", "gpt4", "llama"]
+SOURCES = ["human", "claude", "gpt35", "gpt4", "llama", "gpt41_nano"]
 
 
 def save_to_json(dictionary, file_name):
