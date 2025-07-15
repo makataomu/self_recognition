@@ -35,7 +35,11 @@ def generate_gpt_logprob_results(
         for other in [s for s in selected_sources if s != model]:
             result = {"key": key, "model": other}
             other_summary = responses[other][key]
-
+            print(source_summary,
+                other_summary,
+                article,
+                detection_type,
+                exact_model)
             # Detection
             forward_result = get_model_choice(
                 source_summary,
