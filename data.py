@@ -16,8 +16,12 @@ def save_to_json(dictionary, file_name):
 
 
 def load_from_json(file_name) -> dict:
-    with open(file_name, "r") as f:
-        return json.load(f)
+    try:
+        with open(file_name, "r") as f:
+            return json.load(f)
+    except Exception as e:
+        print(e)
+        return {}
 
 
 def load_data(dataset):
