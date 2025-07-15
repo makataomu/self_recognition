@@ -35,11 +35,11 @@ def generate_gpt_logprob_results(
         for other in [s for s in selected_sources if s != model]:
             result = {"key": key, "model": other}
             other_summary = responses[other][key]
-            print(source_summary,
-                other_summary,
-                article,
-                detection_type,
-                exact_model)
+            # print(source_summary,
+                # other_summary,
+                # article,
+                # detection_type,
+                # exact_model)
             # Detection
             forward_result = get_model_choice(
                 source_summary,
@@ -57,7 +57,7 @@ def generate_gpt_logprob_results(
                 exact_model,
                 return_logprobs=True,
             )
-            print(forward_result)
+            # print(forward_result)
             forward_choice = forward_result[0].token
             backward_choice = backward_result[0].token
 
