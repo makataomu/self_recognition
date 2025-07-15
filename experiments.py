@@ -277,7 +277,7 @@ def generate_recognition_results(dataset, model, starting_idx=0, selected_source
 
     return results
 
-
+"""
 for model in ["gpt4", "gpt35"]:
     results = generate_score_results("cnn", model, starting_idx=500)
     save_to_json(results, f"individual_setting/score_results/cnn/{model}_results.json")
@@ -297,7 +297,7 @@ model = "cnn_10_ft_gpt35"
 results = generate_score_results("xsum", model, starting_idx=10)
 save_to_json(results, f"individual_setting/score_results/xsum/{model}_results.json")
 print("5/5")
-
+"""
 """
 print("Starting results_with_worse CNN Experiments!")
 
