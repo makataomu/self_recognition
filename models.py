@@ -39,6 +39,7 @@ GPT_MODEL_ID = {
     "cnn_readability_ft_gpt35": "ft:gpt-3.5-turbo-1106:nyu-arg::8rbOOAw9",
     "cnn_length_ft_gpt35": "ft:gpt-3.5-turbo-1106:nyu-arg::8rbPCDli",
     "cnn_vowelcount_ft_gpt35": "ft:gpt-3.5-turbo-1106:nyu-arg::8raOJ2nT",
+    "gpt41_nano": "gpt-4.1-nano-2025-04-14",
 }
 
 load_dotenv()
