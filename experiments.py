@@ -57,7 +57,7 @@ def generate_gpt_logprob_results(
                 exact_model,
                 return_logprobs=True,
             )
-
+            print(forward_result)
             forward_choice = forward_result[0].token
             backward_choice = backward_result[0].token
 
