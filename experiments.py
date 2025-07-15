@@ -17,7 +17,10 @@ def generate_gpt_logprob_results(
     starting_idx=0,
     detection_type="detection",
     comparison_type="comparison",
+    selected_sources=None
 ):
+    if selected_sources is None:
+        selected_sources = SOURCES
     # For retrieving summaries, the specific fine-tuning version isn't needed
     exact_model = model
     model = "gpt35" if model.endswith("gpt35") else model
@@ -29,7 +32,7 @@ def generate_gpt_logprob_results(
         article = articles[key]
 
         source_summary = responses[model][key]
-        for other in [s for s in SOURCES if s != model]:
+        for other in [s for s in selected_sources if s != model]:
             result = {"key": key, "model": other}
             other_summary = responses[other][key]
 
@@ -132,8 +135,11 @@ def generate_gpt_logprob_results(
 
 # Only suitable for GPT models
 def generate_gpt_logprob_results_with_sources(
-    dataset, model, reversed=False, randomized=False
+    dataset, model, reversed=False, randomized=False, selected_sources=None
 ):
+    if selected_sources is None:
+        selected_sources = SOURCES
+
     exact_model = model  # the specific fine-tuning version not needed for retrieval
     model = "gpt35" if model.endswith("gpt35") else model
 
@@ -144,7 +150,7 @@ def generate_gpt_logprob_results_with_sources(
         article = articles[key]
         source_summary = responses[model][key]
 
-        for other in [s for s in SOURCES if s != model]:
+        for other in [s for s in selected_sources if s != model]:
             result = {"key": key, "model": other}
             other_summary = responses[other][key]
 
@@ -202,7 +208,10 @@ def generate_gpt_logprob_results_with_sources(
     return results
 
 
-def generate_score_results(dataset, model, starting_idx=0):
+def generate_score_results(dataset, model, starting_idx=0, selected_sources=None):
+    if selected_sources is None:
+        selected_sources = SOURCES
+        
     SCORES = ["1", "2", "3", "4", "5"]
 
     exact_model = model
@@ -213,7 +222,7 @@ def generate_score_results(dataset, model, starting_idx=0):
 
     for key in keys[starting_idx:]:
         article = articles[key]
-        for target_model in SOURCES:
+        for target_model in selected_sources:
             summary = responses[target_model][key]
 
             response = get_gpt_score(summary, article, exact_model)
@@ -234,7 +243,10 @@ def generate_score_results(dataset, model, starting_idx=0):
     return results
 
 
-def generate_recognition_results(dataset, model, starting_idx=0):
+def generate_recognition_results(dataset, model, starting_idx=0, selected_sources=None):
+    if selected_sources is None:
+        selected_sources = SOURCES
+        
     exact_model = model
     model = "gpt35" if model.endswith("gpt35") else model
 
@@ -243,7 +255,7 @@ def generate_recognition_results(dataset, model, starting_idx=0):
 
     for key in keys[starting_idx:]:
         article = articles[key]
-        for target_model in SOURCES:
+        for target_model in selected_sources:
             summary = responses[target_model][key]
 
             res = get_gpt_recognition_logprobs(summary, article, exact_model)
