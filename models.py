@@ -40,6 +40,7 @@ GPT_MODEL_ID = {
     "cnn_length_ft_gpt35": "ft:gpt-3.5-turbo-1106:nyu-arg::8rbPCDli",
     "cnn_vowelcount_ft_gpt35": "ft:gpt-3.5-turbo-1106:nyu-arg::8raOJ2nT",
     "gpt41_nano": "gpt-4.1-nano-2025-04-14",
+    "claude3": "claude-3-haiku-20240307",
 }
 
 load_dotenv()
@@ -69,7 +70,7 @@ def get_summary(article, dataset, model):
     if model == "claude":
         return get_claude_summary(
             article,
-            dataset,
+            dataset
         )
     if model == "gpt4":
         return get_gpt_summary(article, dataset, model="gpt-4-1106-preview")
@@ -83,10 +84,10 @@ def get_summary(article, dataset, model):
         )
 
 
-def get_claude_summary(article, dataset="xsum"):
+def get_claude_summary(article, dataset="xsum", model="claude-2.1"):
     response_type = "highlights" if dataset in ["cnn", "dailymail"] else "summary"
-    message = anthropic_client.beta.messages.create(
-        model="claude-2.1",
+    message = anthropic_client.messages.create(
+        model=model,
         max_tokens=100,
         system=DATASET_SYSTEM_PROMPTS[dataset],
         messages=[
