@@ -23,6 +23,7 @@ def generate_gpt_logprob_results(
     selected_sources=None,
     save_every=20,
     save_path=None,
+    unique_dataset=None,
 ):
     if selected_sources is None:
         selected_sources = SOURCES
@@ -31,6 +32,10 @@ def generate_gpt_logprob_results(
     model = "gpt35" if model.endswith("gpt35") else model
 
     responses, articles, keys = load_data(dataset)
+   
+    if unique_dataset:
+      responses, articles, keys = unique_dataset
+
     results = []  # load_from_json(f"results/{model}_results.json")
     total_steps = (len(keys) - starting_idx) * (len(selected_sources) - 1)
     step_count = 0
@@ -276,7 +281,13 @@ def generate_score_results(dataset, model, starting_idx=0, selected_sources=None
     return results
 
 
-def generate_recognition_results(dataset, model, starting_idx=0, selected_sources=None):
+def generate_recognition_results(
+    dataset, 
+    model, 
+    starting_idx=0, 
+    selected_sources=None,
+    unique_dataset=None
+    ):
     if selected_sources is None:
         selected_sources = SOURCES
         
@@ -284,6 +295,9 @@ def generate_recognition_results(dataset, model, starting_idx=0, selected_source
     model = "gpt35" if model.endswith("gpt35") else model
 
     responses, articles, keys = load_data(dataset)
+    if unique_dataset:
+        responses, articles, keys = unique_dataset
+
     results = []
 
     for key in keys[starting_idx:]:

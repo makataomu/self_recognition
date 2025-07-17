@@ -1,0 +1,1212 @@
+[
+  {
+    "key": "36062480",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.0002034268481403553,
+    "res": {
+      "No": 0.9997963611393074,
+      "Yes": 0.0002034268481403553
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "36062480",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.9046501419366757,
+    "res": {
+      "Yes": 0.9046501419366757,
+      "No": 0.09534941422459524
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "37276883",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.9525736757067186,
+    "res": {
+      "Yes": 0.9525736757067186,
+      "No": 0.0474258519545633
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "37276883",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.77729942633416,
+    "res": {
+      "Yes": 0.77729942633416,
+      "No": 0.22270001424141084
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "38509260",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.00070967033651176,
+    "res": {
+      "No": 0.9992900850599707,
+      "Yes": 0.00070967033651176
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "38509260",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.9241412615685153,
+    "res": {
+      "Yes": 0.9241412615685153,
+      "No": 0.07585813531451396
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "39396038",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.377540442961235,
+    "res": {
+      "No": 0.6224589403090144,
+      "Yes": 0.377540442961235
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "39396038",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.6791781904651424,
+    "res": {
+      "Yes": 0.6791781904651424,
+      "No": 0.3208210414044748
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "36187324",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.6224588846568508,
+    "res": {
+      "Yes": 0.6224588846568508,
+      "No": 0.3775403979549097
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "36187324",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.731057728754479,
+    "res": {
+      "Yes": 0.731057728754479,
+      "No": 0.2689411167333314
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "35306009",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.010986941583869245,
+    "res": {
+      "No": 0.9890128691951352,
+      "Yes": 0.010986941583869245
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "35306009",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.9399128386539652,
+    "res": {
+      "Yes": 0.9399128386539652,
+      "No": 0.0600866201819544
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "39490050",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.7772995653261411,
+    "res": {
+      "Yes": 0.7772995653261411,
+      "No": 0.22270004078932287
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "39490050",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.851952557223148,
+    "res": {
+      "Yes": 0.851952557223148,
+      "No": 0.14804715550135744
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "38072149",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.7310581862862027,
+    "res": {
+      "Yes": 0.7310581862862027,
+      "No": 0.26894127703477644
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "38072149",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.731057728754479,
+    "res": {
+      "Yes": 0.731057728754479,
+      "No": 0.2689411167333314
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "10615479",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.14804715550135744,
+    "res": {
+      "No": 0.851952557223148,
+      "Yes": 0.14804715550135744
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "10615479",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.6224590516133564,
+    "res": {
+      "Yes": 0.6224590516133564,
+      "No": 0.3775404879675657
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "40186667",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.5621760669605245,
+    "res": {
+      "Yes": 0.5621760669605245,
+      "No": 0.43782316117285897
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "40186667",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.22270004078932287,
+    "res": {
+      "No": 0.7772995653261411,
+      "Yes": 0.22270004078932287
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "38622886",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.07585815340050496,
+    "res": {
+      "No": 0.9241415714110701,
+      "Yes": 0.07585815340050496
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "38622886",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.6224586620482464,
+    "res": {
+      "Yes": 0.6224586620482464,
+      "No": 0.377540262935966
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "40686943",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.0011695103074966034,
+    "res": {
+      "No": 0.9988303399354621,
+      "Yes": 0.0011695103074966034
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "40686943",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.7310581209245104,
+    "res": {
+      "Yes": 0.7310581209245104,
+      "No": 0.2689412449744798
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "30604567",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.499999760629151,
+    "res": {
+      "No": 0.499999760629151,
+      "Yes": 0.499999760629151
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "30604567",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.7310579902011433,
+    "res": {
+      "Yes": 0.7310579902011433,
+      "No": 0.26894121291418693
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "35440903",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.8175737120874701,
+    "res": {
+      "Yes": 0.8175737120874701,
+      "No": 0.1824253505928739
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "35440903",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.8519523033215382,
+    "res": {
+      "Yes": 0.8519523033215382,
+      "No": 0.14804712020416919
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "40178965",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.14804713785276227,
+    "res": {
+      "No": 0.851952468357576,
+      "Yes": 0.14804713785276227
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "40178965",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.9626727789776646,
+    "res": {
+      "Yes": 0.9626727789776646,
+      "No": 0.037326870234418295
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "13750468",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.49999979043146003,
+    "res": {
+      "No": 0.49999979043146003,
+      "Yes": 0.49999979043146003
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "13750468",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.2689413411553812,
+    "res": {
+      "No": 0.7310583170096049,
+      "Yes": 0.2689413411553812
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "17754949",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.14804715550135744,
+    "res": {
+      "No": 0.851952557223148,
+      "Yes": 0.14804715550135744
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "17754949",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.8807966137617812,
+    "res": {
+      "Yes": 0.8807966137617812,
+      "No": 0.11920285564477803
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "36675623",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.09534941422459524,
+    "res": {
+      "No": 0.9046500408341493,
+      "Yes": 0.09534941422459524
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "36675623",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.9241410550068698,
+    "res": {
+      "Yes": 0.9241410550068698,
+      "No": 0.07585811722852728
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "40035440",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.622459070164082,
+    "res": {
+      "Yes": 0.622459070164082,
+      "No": 0.377540510470733
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "40035440",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.6791782309473184,
+    "res": {
+      "Yes": 0.6791782309473184,
+      "No": 0.32082107964932555
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "36938787",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.11920288406495688,
+    "res": {
+      "No": 0.880796810635188,
+      "Yes": 0.11920288406495688
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "36938787",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.880796810635188,
+    "res": {
+      "Yes": 0.880796810635188,
+      "No": 0.11920288406495688
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "39398068",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.851952392187093,
+    "res": {
+      "Yes": 0.851952392187093,
+      "No": 0.14804712020416919
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "39398068",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.8807965350124308,
+    "res": {
+      "Yes": 0.8807965350124308,
+      "No": 0.11920285564477803
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "39926408",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.851952392187093,
+    "res": {
+      "Yes": 0.851952392187093,
+      "No": 0.14804712020416919
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "39926408",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.8807964431381976,
+    "res": {
+      "Yes": 0.8807964431381976,
+      "No": 0.11920282722460594
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "33541535",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.8807965350124308,
+    "res": {
+      "Yes": 0.8807965350124308,
+      "No": 0.11920285564477803
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "33541535",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.9770222764165042,
+    "res": {
+      "Yes": 0.9770222764165042,
+      "No": 0.022977361934812198
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "28440730",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.1824254810736992,
+    "res": {
+      "No": 0.8175742724963551,
+      "Yes": 0.1824254810736992
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "28440730",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.9626727789776646,
+    "res": {
+      "Yes": 0.9626727789776646,
+      "No": 0.037326870234418295
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "33113255",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.6224589959611828,
+    "res": {
+      "Yes": 0.6224589959611828,
+      "No": 0.3775404654643997
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "33113255",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.8519523033215382,
+    "res": {
+      "Yes": 0.8519523033215382,
+      "No": 0.14804712020416919
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "32084473",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.3208211561390406,
+    "res": {
+      "No": 0.6791783928760464,
+      "Yes": 0.3208211561390406
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "32084473",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.9933068896210222,
+    "res": {
+      "Yes": 0.9933068896210222,
+      "No": 0.006692848072816306
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "31717213",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.5621761674854477,
+    "res": {
+      "Yes": 0.5621761674854477,
+      "No": 0.43782323946174795
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "31717213",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.6791782714294968,
+    "res": {
+      "Yes": 0.6791782714294968,
+      "No": 0.3208211178941808
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "34861894",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.49999949240844993,
+    "res": {
+      "No": 0.49999949240844993,
+      "Yes": 0.49999949240844993
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "34861894",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.5621759664356191,
+    "res": {
+      "Yes": 0.5621759664356191,
+      "No": 0.43782308288398397
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "40044849",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.320821194383905,
+    "res": {
+      "No": 0.6791784535993295,
+      "Yes": 0.320821194383905
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "40044849",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.8175741141198921,
+    "res": {
+      "Yes": 0.8175741141198921,
+      "No": 0.1824254375800804
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "18862422",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.1824254810736992,
+    "res": {
+      "No": 0.8175742724963551,
+      "Yes": 0.1824254810736992
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "18862422",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.9399128386539652,
+    "res": {
+      "Yes": 0.9399128386539652,
+      "No": 0.0600866201819544
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "39703329",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.7310583170096049,
+    "res": {
+      "Yes": 0.7310583170096049,
+      "No": 0.2689413411553812
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "39703329",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.8175741141198921,
+    "res": {
+      "Yes": 0.8175741141198921,
+      "No": 0.1824254375800804
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "35658862",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.3208211561390406,
+    "res": {
+      "No": 0.6791783928760464,
+      "Yes": 0.3208211561390406
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "35658862",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.9399130452394305,
+    "res": {
+      "Yes": 0.9399130452394305,
+      "No": 0.06008663450772272
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "36092657",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.0001233945049762016,
+    "res": {
+      "No": 0.9998764455604927,
+      "Yes": 0.0001233945049762016
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "36092657",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.9046499464718017,
+    "res": {
+      "Yes": 0.9046499464718017,
+      "No": 0.09534939149152609
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "34184963",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.43782323946174795,
+    "res": {
+      "No": 0.5621761674854477,
+      "Yes": 0.43782323946174795
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "34184963",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.8807964431381976,
+    "res": {
+      "Yes": 0.8807964431381976,
+      "No": 0.11920282722460594
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "35069975",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.8807967056360323,
+    "res": {
+      "Yes": 0.8807967056360323,
+      "No": 0.11920288406495688
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "35069975",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.9914223119214914,
+    "res": {
+      "Yes": 0.9914223119214914,
+      "No": 0.008577484930474293
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "29460858",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.22270009388515652,
+    "res": {
+      "No": 0.7772996579874755,
+      "Yes": 0.22270009388515652
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "29460858",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.7772995653261411,
+    "res": {
+      "Yes": 0.7772995653261411,
+      "No": 0.22270004078932287
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "37185211",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 6.962251605520992e-06,
+    "res": {
+      "No": 0.9999919389781311,
+      "Yes": 6.962251605520992e-06
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "37185211",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.8519523033215382,
+    "res": {
+      "Yes": 0.8519523033215382,
+      "No": 0.14804712020416919
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "36454885",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.11920288406495688,
+    "res": {
+      "No": 0.880796810635188,
+      "Yes": 0.11920288406495688
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "36454885",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.7310581862862027,
+    "res": {
+      "Yes": 0.7310581862862027,
+      "No": 0.26894127703477644
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "33148906",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.7772995653261411,
+    "res": {
+      "Yes": 0.7772995653261411,
+      "No": 0.22270004078932287
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "33148906",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.5621763015187068,
+    "res": {
+      "Yes": 0.5621763015187068,
+      "No": 0.43782334384695504
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "18086604",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.499999760629151,
+    "res": {
+      "No": 0.499999760629151,
+      "Yes": 0.499999760629151
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "18086604",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.7310581209245104,
+    "res": {
+      "Yes": 0.7310581209245104,
+      "No": 0.2689412449744798
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "32903337",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.002472623024627213,
+    "res": {
+      "No": 0.9975272845688867,
+      "Yes": 0.002472623024627213
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "32903337",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.817574028840271,
+    "res": {
+      "Yes": 0.817574028840271,
+      "No": 0.18242541583327487
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "22791471",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.04742586326176889,
+    "res": {
+      "No": 0.9525739986305993,
+      "Yes": 0.04742586326176889
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "22791471",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.8519521382855323,
+    "res": {
+      "Yes": 0.8519521382855323,
+      "No": 0.14804708490698937
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "20482930",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.7310580555628239,
+    "res": {
+      "Yes": 0.7310580555628239,
+      "No": 0.26894121291418693
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "20482930",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.8807967056360323,
+    "res": {
+      "Yes": 0.8807967056360323,
+      "No": 0.11920288406495688
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "40029096",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.37754015042021644,
+    "res": {
+      "No": 0.6224584765411368,
+      "Yes": 0.37754015042021644
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "40029096",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.6791783321527689,
+    "res": {
+      "Yes": 0.6791783321527689,
+      "No": 0.3208211178941808
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "39243601",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.0953494369576698,
+    "res": {
+      "No": 0.9046502362990437,
+      "Yes": 0.0953494369576698
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "39243601",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.8175739435606587,
+    "res": {
+      "Yes": 0.8175739435606587,
+      "No": 0.18242541583327487
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "35815905",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 4.539785156619626e-05,
+    "res": {
+      "No": 0.9999545100305701,
+      "Yes": 4.539785156619626e-05
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "35815905",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.6791782714294968,
+    "res": {
+      "Yes": 0.6791782714294968,
+      "No": 0.3208211178941808
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "35260212",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 4.00636544290992e-05,
+    "res": {
+      "No": 0.9999590395731335,
+      "Yes": 4.00636544290992e-05
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "35260212",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.9241415714110701,
+    "res": {
+      "Yes": 0.9241415714110701,
+      "No": 0.07585815340050496
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "33497596",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.499999760629151,
+    "res": {
+      "No": 0.499999760629151,
+      "Yes": 0.499999760629151
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "33497596",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.8519521382855323,
+    "res": {
+      "Yes": 0.8519521382855323,
+      "No": 0.14804708490698937
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "40339241",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.679178129741883,
+    "res": {
+      "Yes": 0.679178129741883,
+      "No": 0.3208210414044748
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "40339241",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.8175739435606587,
+    "res": {
+      "Yes": 0.8175739435606587,
+      "No": 0.18242541583327487
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "31792608",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.7310583170096049,
+    "res": {
+      "Yes": 0.7310583170096049,
+      "No": 0.2689413411553812
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "31792608",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.9399130452394305,
+    "res": {
+      "Yes": 0.9399130452394305,
+      "No": 0.06008663450772272
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "37577457",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.00015843609000250583,
+    "res": {
+      "No": 0.999840931566558,
+      "Yes": 0.00015843609000250583
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "37577457",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.9626727789776646,
+    "res": {
+      "Yes": 0.9626727789776646,
+      "No": 0.037326870234418295
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "34570783",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.3208210414044748,
+    "res": {
+      "No": 0.6791781904651424,
+      "Yes": 0.3208210414044748
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "34570783",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.9820134285150766,
+    "res": {
+      "Yes": 0.9820134285150766,
+      "No": 0.01798620273753547
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "39064526",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.7310579902011433,
+    "res": {
+      "Yes": 0.7310579902011433,
+      "No": 0.26894121291418693
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "39064526",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.9241413648493554,
+    "res": {
+      "Yes": 0.9241413648493554,
+      "No": 0.07585813531451396
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "23984730",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.9399130452394305,
+    "res": {
+      "Yes": 0.9399130452394305,
+      "No": 0.06008663450772272
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "23984730",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.9046500408341493,
+    "res": {
+      "Yes": 0.9046500408341493,
+      "No": 0.09534941422459524
+    },
+    "ground_truth": 1
+  },
+  {
+    "key": "38875041",
+    "model": "gpt41_nano",
+    "target_model": "human",
+    "recognition_score": 0.49999979043146003,
+    "res": {
+      "No": 0.49999979043146003,
+      "Yes": 0.49999979043146003
+    },
+    "ground_truth": 0
+  },
+  {
+    "key": "38875041",
+    "model": "gpt41_nano",
+    "target_model": "gpt41_nano",
+    "recognition_score": 0.9820135437510639,
+    "res": {
+      "Yes": 0.9820135437510639,
+      "No": 0.01798620273753547
+    },
+    "ground_truth": 1
+  }
+]
