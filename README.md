@@ -96,6 +96,18 @@ As committed in this workspace on April 1, 2026:
   - pairwise paraphrase sets: 79 summaries each for `pp_base`, `pp_syn_3`, `pp_syn_5`, `pp_syn_7`
   - individual-recognition sets: 55 summaries each for `ind_base`, `ind_syn_3`, `ind_syn_5`, `ind_syn_7`
 
+## Pilot Figures
+
+These are the most useful README-level figures from `experiments.ipynb`, cleaned into static files in `figures/`.
+
+![GPT-4.1 nano xsum pairwise pilot](figures/gpt41_nano_xsum_pairwise_pilot.png)
+
+Pairwise pilot on selected `xsum` examples (`n=79`, human comparison only). Detection stays near ceiling under synonym replacement and drops more clearly under back-translation. Self-preference also declines under intervention, but more mildly than the back-translation detection drop.
+
+![GPT-4.1 nano xsum individual pilot](figures/gpt41_nano_xsum_individual_pilot.png)
+
+Individual pilot on selected `xsum` examples (`n=55` per target). This figure is split by target because the raw notebook summary bar chart mixes `human` and `gpt41_nano` targets in a way that is easy to misread. On the current pilot subset, human-target recognition stays roughly flat, while self-target recognition drops under both synonym edits and back-translation.
+
 ## Recommended Workflow
 
 If you want to understand or continue the current project, start here:
